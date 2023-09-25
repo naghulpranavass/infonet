@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar&family=Poppins:wght@300;400&display=swap');
+html{
+    font-family: "poppins", sans-serif;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13rem;
+}
+.h1{
+    color: #37cff0;
+    font-size: 2rem;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #252937;
+    list-style: none;
+}
+.item-items{
+    margin-right: 2rem;
+}
+.item-button{
+    color: #fff;
+    background-color: #3768f0;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.subject-container{
+    border: 3px solid #f2f2f2;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    text-align: center;
+}
+.item-items-sub{
+    color: #fff;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 0.2rem 1.5rem;
+    width: 40px;
+    list-style: none;
+    margin-top: 1rem;
+}
+.item-button-sub{
+    color: #fff;
+    background-color: #999;
+    border: 2px solid #f2f2f2;
+    width:40px;
+    padding: 0.2rem 1.5rem;
+    list-style: none;
+    margin-top: 1rem;
+}
